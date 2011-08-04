@@ -32,7 +32,7 @@ else
     cat = " "
 end
     pdf.move_down(20)
-     data = [["Admission Number" , @student.admission_no],
+     data = [["Matr&iacute;cula" , @student.admission_no],
                  ["Batch" , @student.batch.full_name ],
                  ["Course",(@student.batch.course).course_name],
                 ["Date of Birth",@student.date_of_birth.strftime("%d %b, %Y")],
